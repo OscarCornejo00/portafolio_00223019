@@ -1,0 +1,27 @@
+//Primer algoritmo
+
+int obtsegundo(stack s){
+    	if(empty(s))
+    		return -1
+    	i = pop(s)
+    	if(empty(s))
+    		return -1
+    	i = pop(s)
+    	return i
+    }
+    
+//Segundo algoritmo
+
+int leersegundo(stack s){
+    	if(empty(s))
+    		return -1
+    	arr = pop(s)
+    	if(empty(s))
+    		return -1
+    	seg = pop(s)
+    	push(s, seg)
+    	push(s, arr)
+    	return seg
+    }
+
+    
