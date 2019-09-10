@@ -50,7 +50,7 @@ int main()
 	while(!empty(&unaPila)){
 		pop(&unaPila,&a);
 		if(empty(&unaPila))
-		cout<<"El ultimo valor es: "<<a;
+		cout<<"El valor del fondo es: "<<a;
 		}
 	
 	
