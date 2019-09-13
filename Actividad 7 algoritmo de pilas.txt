@@ -24,4 +24,4 @@ int leersegundo(stack s){
     	return seg
     }
 
-    
+ 
