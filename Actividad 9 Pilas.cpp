@@ -31,7 +31,7 @@ void pila(){
         }
         else{
             
-            cout << "El tamaño de la PIla es de: " << s.size() << endl;
+            cout << "El tamaño de la Pila es de: " << s.size() << endl;
             
             int a=0;
 	
