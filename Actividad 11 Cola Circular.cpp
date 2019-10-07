@@ -17,7 +17,6 @@ int main() {
                 break;
             case 2:
                 if(elementos!=0){
-                    cout<<"Eliminando ..."<<endl;
                     cout<<"Fue eliminado el elemento "<<colacir[inicio]<<" de la posicion " <<inicio<<endl;
                     colacir[inicio]=NULL; 
                     inicio=(inicio+1)%5;
